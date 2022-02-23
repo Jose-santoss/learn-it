@@ -5,10 +5,10 @@ const questions = [
   {
     questionText: 'O que é HTML?',
     answerOptions: [
-      {answerText: "Linguagem de Programação", isCorrect: true},
+      {answerText: "Linguagem de Programação", isCorrect: false},
       {answerText: "Linguagem orientada a Objetos", isCorrect: false},
       {answerText: "Editor de Texto ", isCorrect: false},
-      {answerText: "Linguagem de marcação de HiperTexto", isCorrect: false},
+      {answerText: "Linguagem de marcação de HiperTexto", isCorrect: true},
     ],
   },
   {
@@ -24,10 +24,10 @@ const questions = [
   {
     questionText: 'O que é JavaScript?',
     answerOptions: [
-      {answerText: "Apple", isCorrect: true},
-      {answerText: "Intel", isCorrect: false},
-      {answerText: "Amazon", isCorrect: false},
-      {answerText: "Casas Bahia", isCorrect: false},
+      {answerText: "Linguagem de marcação de HiperTexto", isCorrect: false},
+      {answerText: "Linguagem de programação usada para manipular comportamentos de páginas web.", isCorrect: true},
+      {answerText: "FrameWork utilizado para deixar o site mais bonito", isCorrect: false},
+      {answerText: "Armazenar dados em um sistema de computador.", isCorrect: false},
     ],
   },
   {
@@ -36,7 +36,7 @@ const questions = [
       {answerText: "Praticando o que se aprende", isCorrect: true},
       {answerText: "Assistindo vídeos", isCorrect: false},
       {answerText: "Lendo", isCorrect: false},
-      {answerText: "Dormindo", isCorrect: false},
+      {answerText: "Dormindo por mais tempo", isCorrect: false},
     ],
   },
   {
@@ -44,13 +44,33 @@ const questions = [
     answerOptions: [
       {answerText: "Um game de programação", isCorrect: false},
       {answerText: "Um site de compras", isCorrect: false},
-      {answerText: "Rede Social de programadores", isCorrect: true},
-      {answerText: "Um alimento", isCorrect: false},
+      {answerText: "Um frameWork de manipulação de códigos", isCorrect: true},
+      {answerText: "Um Rede Social de programadores", isCorrect: false},
     ],
   },
   
   {
-    questionText: 'O que é o GitHub?',
+    questionText: 'O que são Arrays?',
+    answerOptions: [
+      {answerText: "Arrays são dados manipuláveis dentro de um banco de dados", isCorrect: false},
+      {answerText: "Arrays não são utilizados dentro da programação", isCorrect: false},
+      {answerText: "São sinônimos de tags HTML", isCorrect: true},
+      {answerText: "Arrays são usados para armazenar vários valores em uma única variável.", isCorrect: false},
+    ],
+  },
+
+  {
+    questionText: 'O que é Netlify?',
+    answerOptions: [
+      {answerText: "Site de filmes", isCorrect: false},
+      {answerText: "Serviço de hospedagem Front-End de sites e aplicativos", isCorrect: false},
+      {answerText: "Serviço de manipulação de dados", isCorrect: true},
+      {answerText: "Site para armazenar dados Back-End ", isCorrect: false},
+    ],
+  },
+
+  {
+    questionText: 'O que é um gerenciador de pacotes?',
     answerOptions: [
       {answerText: "Um game de programação", isCorrect: false},
       {answerText: "Um site de compras", isCorrect: false},
@@ -60,7 +80,7 @@ const questions = [
   },
 
   {
-    questionText: 'O que é o GitHub?',
+    questionText: 'O que é NodeJS?',
     answerOptions: [
       {answerText: "Um game de programação", isCorrect: false},
       {answerText: "Um site de compras", isCorrect: false},
@@ -70,7 +90,7 @@ const questions = [
   },
 
   {
-    questionText: 'O que é o GitHub?',
+    questionText: 'O que é JSX?',
     answerOptions: [
       {answerText: "Um game de programação", isCorrect: false},
       {answerText: "Um site de compras", isCorrect: false},
@@ -80,7 +100,7 @@ const questions = [
   },
 
   {
-    questionText: 'O que é o GitHub?',
+    questionText: 'Para que serve o hook useState?',
     answerOptions: [
       {answerText: "Um game de programação", isCorrect: false},
       {answerText: "Um site de compras", isCorrect: false},
@@ -90,42 +110,22 @@ const questions = [
   },
 
   {
-    questionText: 'O que é o GitHub?',
+    questionText: 'O que são variáveis?',
     answerOptions: [
-      {answerText: "Um game de programação", isCorrect: false},
-      {answerText: "Um site de compras", isCorrect: false},
-      {answerText: "Rede Social de programadores", isCorrect: true},
-      {answerText: "Um alimento", isCorrect: false},
+      {answerText: "São nomes simbólicos para receber algum valor", isCorrect: false},
+      {answerText: "São tags HTML", isCorrect: false},
+      {answerText: "São funções JavaScript", isCorrect: true},
+      {answerText: "São métodos de programar", isCorrect: false},
     ],
   },
 
   {
-    questionText: 'O que é o GitHub?',
+    questionText: 'Quais são as variáveis em JavaScript?',
     answerOptions: [
-      {answerText: "Um game de programação", isCorrect: false},
-      {answerText: "Um site de compras", isCorrect: false},
-      {answerText: "Rede Social de programadores", isCorrect: true},
-      {answerText: "Um alimento", isCorrect: false},
-    ],
-  },
-
-  {
-    questionText: 'O que é o GitHub?',
-    answerOptions: [
-      {answerText: "Um game de programação", isCorrect: false},
-      {answerText: "Um site de compras", isCorrect: false},
-      {answerText: "Rede Social de programadores", isCorrect: true},
-      {answerText: "Um alimento", isCorrect: false},
-    ],
-  },
-
-  {
-    questionText: 'O que é o GitHub?',
-    answerOptions: [
-      {answerText: "Um game de programação", isCorrect: false},
-      {answerText: "Um site de compras", isCorrect: false},
-      {answerText: "Rede Social de programadores", isCorrect: true},
-      {answerText: "Um alimento", isCorrect: false},
+      {answerText: "Ping, Dir e Var", isCorrect: false},
+      {answerText: "Var, Let e Ping", isCorrect: false},
+      {answerText: "Var, Let e Ping", isCorrect: false},
+      {answerText: "Var, Let e Const", isCorrect: true},
     ],
   },
 
