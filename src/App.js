@@ -167,20 +167,20 @@ const questions = [
   {
     questionText: 'O que é React.js?',
     answerOptions: [
-      {answerText: "Ping, Dir e Var", isCorrect: false},
-      {answerText: "Var, Let e Ping", isCorrect: false},
+      {answerText: "É uma função em HTML", isCorrect: false},
+      {answerText: "É uma biblioteca Java para a criação de interfaces de usuário", isCorrect: false},
       {answerText: "Folhas de estilo em Cascata", isCorrect: false},
       {answerText: "React JS é uma biblioteca JavaScript para a criação de interfaces de usuário", isCorrect: true},
     ],
   },
 
   {
-    questionText: '?',
+    questionText: 'Como iniciar um projeto React?',
     answerOptions: [
-      {answerText: "Ping, Dir e Var", isCorrect: false},
-      {answerText: "Var, Let e Ping", isCorrect: false},
-      {answerText: "Var, Let e Ping", isCorrect: false},
-      {answerText: "Var, Let e Const", isCorrect: true},
+      {answerText: "npx create react-app", isCorrect: false},
+      {answerText: "npx create react app", isCorrect: false},
+      {answerText: "npx create-react-app .", isCorrect: true},
+      {answerText: "npx create-react app .", isCorrect: false},
     ],
   },
 
