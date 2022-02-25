@@ -148,8 +148,8 @@ const questions = [
     answerOptions: [
       {answerText: "Recebe um valor que não pode ser alterado.", isCorrect: false},
       {answerText: "Recebe um valor que pode ser alterado apenas uma vez.", isCorrect: false},
-      {answerText: "Não pode receber nenhum valor.", isCorrect: true},
-      {answerText: "Recebe um valor que pode mudar na aplicação.", isCorrect: false},
+      {answerText: "Não pode receber nenhum valor.", isCorrect: false},
+      {answerText: "Recebe um valor que pode mudar na aplicação.", isCorrect: true},
 
     ],
   },
@@ -158,19 +158,19 @@ const questions = [
     questionText: 'Como se comporta a variável Var?',
     answerOptions: [
       {answerText: "Da mesma maneira que a variável Const", isCorrect: false},
-      {answerText: "Da mesma maneira que a variável Const", isCorrect: false},
-      {answerText: "Da mesma maneira que a variável ", isCorrect: false},
+      {answerText: "Não se usa essa variável em nenhum software ", isCorrect: false},
       {answerText: "Da mesma maneira que a variável Let", isCorrect: true},
+      {answerText: "Nenhuma das alternativas", isCorrect: false},
     ],
   },
 
   {
-    questionText: '?',
+    questionText: 'O que é React.js?',
     answerOptions: [
       {answerText: "Ping, Dir e Var", isCorrect: false},
       {answerText: "Var, Let e Ping", isCorrect: false},
-      {answerText: "Var, Let e Ping", isCorrect: false},
-      {answerText: "Var, Let e Const", isCorrect: true},
+      {answerText: "Folhas de estilo em Cascata", isCorrect: false},
+      {answerText: "React JS é uma biblioteca JavaScript para a criação de interfaces de usuário", isCorrect: true},
     ],
   },
 
