@@ -56,7 +56,7 @@ const questions = [
   {
     questionText: 'O que são Arrays?',
     answerOptions: [
-      {answerText: "Arrays são dados manipuláveis dentro de um banco de dados", isCorrect: false},
+      {answerText: "Arrays são dados armazenados em um PC", isCorrect: false},
       {answerText: "Arrays não são utilizados dentro da programação", isCorrect: false},
       {answerText: "São sinônimos de tags HTML", isCorrect: false},
       {answerText: "Arrays são usados para armazenar vários valores em uma única variável.", isCorrect: true},
@@ -66,10 +66,10 @@ const questions = [
   {
     questionText: 'O que é Netlify?',
     answerOptions: [
+      {answerText: "Serviço de hospedagem Front-End de sites e aplicativos", isCorrect: true},
       {answerText: "Site de filmes", isCorrect: false},
-      {answerText: "Serviço de hospedagem Front-End de sites e aplicativos", isCorrect: false},
-      {answerText: "Serviço de manipulação de dados", isCorrect: true},
-      {answerText: "Site para armazenar dados Back-End ", isCorrect: false},
+      {answerText: "Serviço de manipulação de dados", isCorrect: false},
+      {answerText: "Serviço de hospedagem Back-End de sites e aplicativos", isCorrect: false},
     ],
   },
 
@@ -87,8 +87,8 @@ const questions = [
     questionText: 'O que é NodeJS?',
     answerOptions: [
       {answerText: "Uma linguagem de programação", isCorrect: false},
-      {answerText: "Um framework JavaScript", isCorrect: false},
-      {answerText: "É uma linguagem de marcação de HiperTexto", isCorrect: true},
+      {answerText: "Um framework JavaScript", isCorrect: true},
+      {answerText: "É uma linguagem de marcação de HiperTexto", isCorrect: false},
       {answerText: "Nenhuma das alternativas", isCorrect: false},
     ],
   },
@@ -96,7 +96,7 @@ const questions = [
   {
     questionText: 'O que é JSX?',
     answerOptions: [
-      {answerText: "", isCorrect: false},
+      {answerText: "São “tradutores” com a função de conectar softwares e aplicativos", isCorrect: false},
       {answerText: "É uma extensão de sintaxe para JavaScript.", isCorrect: false},
       {answerText: "É um sistema operacional de um PC", isCorrect: true},
       {answerText: "É uma extensão de sintaxe para Java", isCorrect: false},
