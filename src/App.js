@@ -78,7 +78,7 @@ const questions = [
     answerOptions: [
       {answerText: "São ferramentas que auxiliam um desenvolvedor a fazer o download de frameworks e inserir no seu projeto web", isCorrect: true},
       {answerText: "São um conjunto de dados armazenados em um banco de dados", isCorrect: false},
-      {answerText: "É uma maneira de identar os códigos de programação", isCorrect: true},
+      {answerText: "É uma maneira de identar os códigos de programação", isCorrect: false},
       {answerText: "Nenhuma das Alternativas", isCorrect: false},
     ],
   },
@@ -96,9 +96,9 @@ const questions = [
   {
     questionText: 'O que é JSX?',
     answerOptions: [
-      {answerText: "São “tradutores” com a função de conectar softwares e aplicativos", isCorrect: false},
+      {answerText: "São “tradutores” com a função de conectar softwares e aplicativos", isCorrect: true},
       {answerText: "É uma extensão de sintaxe para JavaScript.", isCorrect: false},
-      {answerText: "É um sistema operacional de um PC", isCorrect: true},
+      {answerText: "É um sistema operacional de um PC", isCorrect: false},
       {answerText: "É uma extensão de sintaxe para Java", isCorrect: false},
     ],
   },
