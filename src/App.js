@@ -137,9 +137,9 @@ const questions = [
     questionText: 'Como se comporta a variável Const?',
     answerOptions: [
       {answerText: "Pode mudar o seu valor durante a aplicação", isCorrect: false},
-      {answerText: "Não pode mudar o seu valor durante a aplicação", isCorrect: false},
+      {answerText: "Não pode mudar o seu valor durante a aplicação", isCorrect: true},
       {answerText: "Se comporta da mesma maneira que Var e Let", isCorrect: false},
-      {answerText: "Nenhuma das alternativas", isCorrect: true},
+      {answerText: "Nenhuma das alternativas", isCorrect: false},
     ],
   },
 
@@ -186,6 +186,7 @@ const questions = [
 
 ];
 
+
 function App() {
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -213,8 +214,12 @@ function App() {
 ) : (
 <>
 <div className="question-section">
+  <div className="titulo">
+    <h1>LEARN IT</h1>
+  </div>
   <div className="question-count">
   <span>Questão {currentQuestion + 1}</span>/{questions.length}
+
   </div>
   <div className= "question-text">
     {questions[currentQuestion].questionText}
