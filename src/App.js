@@ -7,7 +7,7 @@ const questions = [
     answerOptions: [
       {answerText: "Linguagem de Programação", isCorrect: false},
       {answerText: "Linguagem orientada a Objetos", isCorrect: false},
-      {answerText: "Editor de Texto ", isCorrect: false},
+      {answerText: "Editor de Texto para editar códigos", isCorrect: false},
       {answerText: "Linguagem de marcação de HiperTexto", isCorrect: true},
     ],
   },
